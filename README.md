@@ -25,3 +25,4 @@ A performance focused epoll based static HTTP server.
 | **Epoll (LT, keep alive)** | ~37,500 | Single threaded event loop with persistent connections |
 | **Epoll (LT, keep alive, sendfile)** | ~41k | Single threaded event loop with persistent connections and zero copy file serving |
 | **Epoll (LT, keep alive, sendfile, multithreading)** | ~125k | Multithreaded architecture running 4 concurrent epoll loops (optimal on test machine) |
+"# VoltServer" 
